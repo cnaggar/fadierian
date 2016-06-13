@@ -1,0 +1,8 @@
+---
+- hosts: all
+  sudo: yes
+  serial: 1
+
+  tasks:
+    - name: Install mysql
+      yum: name=mysql state=present update_cache=yes
