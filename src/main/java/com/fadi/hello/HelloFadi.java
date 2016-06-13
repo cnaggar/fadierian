@@ -1,6 +1,5 @@
-/**
- * Created by cnaggar on 2016-06-12.
- */
+package com.fadi.hello;
+
 public class HelloFadi {
     
     public static void main(String[] args) {
